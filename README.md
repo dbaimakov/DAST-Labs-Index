@@ -46,6 +46,6 @@ Includes raw PoC requests and reproduction steps.
 
 ```mermaid
 flowchart LR
-  A[Index Repository (DAST Labs)] -->|links| B[CipherCheckTestLab]
-  A -->|links| C[clickjacking-lab]
-  A -->|links| D[http-request-smuggling-lab]
+    A[Index Repository (DAST Labs)] -->|links| B[CipherCheckTestLab]
+    A -->|links| C[clickjacking-lab]
+    A -->|links| D[http-request-smuggling-lab]
