@@ -47,3 +47,6 @@ flowchart TD
   A[Index: DAST Vulnerability Labs] --> B[Cipher-Check-Test-Script]
   A --> C[clickjacking-lab]
   A --> D[http-request-smuggling-lab]
+```
+## Slides
+- [View presentation (PDF)](slides/DAST-Labs-Overview.pdf)
