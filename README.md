@@ -20,7 +20,7 @@ Tests if a server negotiates **weak/deprecated TLS ciphers** by iterating a list
 Supports cookie and URL options to reach authenticated endpoints.  
 **Remediation:** disable obsolete ciphers and enforce minimal TLS versions.
 
-**Repo:** https://github.com/dbaimakov/CipherCheckTestLab
+**Repo:** https://github.com/dbaimakov/Cipher-Check-Test-Script
 
 ---
 
@@ -46,6 +46,6 @@ Includes raw PoC requests and reproduction steps.
 
 ```mermaid
 flowchart LR
-    A[Index Repository (DAST Labs)] -->|links| B[CipherCheckTestLab]
+    A[Index Repository (DAST Labs)] -->|links| B[Cipher-Check-Test-Script]
     A -->|links| C[clickjacking-lab]
     A -->|links| D[http-request-smuggling-lab]
