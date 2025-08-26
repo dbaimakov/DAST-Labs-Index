@@ -22,6 +22,7 @@ Supports cookie and URL options to reach authenticated endpoints.
 
 **Repo:** https://github.com/dbaimakov/Cipher-Check-Test-Script
 
+![Slide 1](slides/Slide5.PNG)
 ---
 
 ### 2) clickjacking-lab — Clickjacking Framing Attack
@@ -30,6 +31,8 @@ Shows how a user click on a visible control can trigger a hidden action in the f
 **Mitigation:** `X-Frame-Options` (`DENY`/`SAMEORIGIN`) or CSP `frame-ancestors`.
 
 **Repo:** https://github.com/dbaimakov/clickjacking-lab
+
+![Slide 2](slides/Slide6.PNG)
 
 ---
 
@@ -40,6 +43,10 @@ Includes raw PoC requests and reproduction steps.
 
 **Repo:** https://github.com/dbaimakov/http-request-smuggling-lab
 
+
+![Slide 3](slides/Slide7.PNG)
+
+
 ## Diagram: Index ↔ Lab Repositories
 
 ```mermaid
@@ -48,9 +55,6 @@ flowchart TD
   A --> C[clickjacking-lab]
   A --> D[http-request-smuggling-lab]
 ```
-## Slides (Preview)
 
-![Slide 1](slides/Slide5.PNG)
-![Slide 2](slides/Slide6.PNG)
-![Slide 3](slides/Slide7.PNG)
+
 
