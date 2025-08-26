@@ -2,7 +2,7 @@
 
 [![Labs](https://img.shields.io/badge/labs-3-blue)](#lab-projects)
 [![DAST](https://img.shields.io/badge/category-DAST-orange)](#overview--motivation)
-[![License: Dmitriy Baimakov](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: Dmitriy Baimakov](https://img.shields.io/badge/license-green)](LICENSE)
 
 ## Overview & Motivation
 
