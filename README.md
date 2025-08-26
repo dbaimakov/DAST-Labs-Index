@@ -2,7 +2,7 @@
 
 [![Labs](https://img.shields.io/badge/labs-3-blue)](#lab-projects)
 [![DAST](https://img.shields.io/badge/category-DAST-orange)](#overview--motivation)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: Dmitriy Baimakov](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## Overview & Motivation
 
@@ -15,7 +15,7 @@ Each lab focuses on a specific area—**weak TLS ciphers**, **clickjacking**, an
 
 ## Lab Projects
 
-### 1) CipherCheckTestLab — Weak TLS Cipher Suite Acceptance
+### 1) Cipher-Check-Test-Script — Weak TLS Cipher Suite Acceptance
 Tests if a server negotiates **weak/deprecated TLS ciphers** by iterating a list via `curl --ciphers`.  
 Supports cookie and URL options to reach authenticated endpoints.  
 **Remediation:** disable obsolete ciphers and enforce minimal TLS versions.
@@ -45,7 +45,7 @@ Includes raw PoC requests and reproduction steps.
 ## Diagram: Index ↔ Lab Repositories
 
 ```mermaid
-flowchart LR
-    A[Index Repository (DAST Labs)] -->|links| B[Cipher-Check-Test-Script]
-    A -->|links| C[clickjacking-lab]
-    A -->|links| D[http-request-smuggling-lab]
+flowchart TD
+  A[Index: DAST Vulnerability Labs] --> B[Cipher-Check-Test-Script]
+  A --> C[clickjacking-lab]
+  A --> D[http-request-smuggling-lab]
