@@ -40,6 +40,21 @@ Includes raw PoC requests and reproduction steps.
 
 **Repo:** https://github.com/dbaimakov/http-request-smuggling-lab
 
+## HTTP Request Smuggling (High-level)
+
+```mermaid
+sequenceDiagram
+  participant Client
+  participant FrontEnd as Front-end (Proxy/CDN)
+  participant BackEnd as Back-end (App)
+
+  Client->>FrontEnd: POST (CL=6 + TE: chunked)
+  Note right of FrontEnd: Parses by Content-Length (6)
+  FrontEnd->>BackEnd: Forwards bytes
+  Note right of BackEnd: Parses by Transfer-Encoding (chunked)
+  BackEnd-->>FrontEnd: Processes smuggled content (desync)
+
+
 ---
 
 ## Diagram: Index ↔ Lab Repositories
