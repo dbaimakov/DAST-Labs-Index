@@ -48,5 +48,9 @@ flowchart TD
   A --> C[clickjacking-lab]
   A --> D[http-request-smuggling-lab]
 ```
-## Slides
-- [View presentation (PDF)](slides/DAST-Labs-Overview.pdf)
+## Slides (Preview)
+
+![Slide 1](slides/Slide5.PNG)
+![Slide 2](slides/Slide6.PNG)
+![Slide 3](slides/Slide7.PNG)
+
